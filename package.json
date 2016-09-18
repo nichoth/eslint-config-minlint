@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-minlint",
+  "version": "1.0.0",
+  "description": "Minimal linting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nichoth/eslint-config-minlint.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "peerDependencies": { "eslint": ">=3" },
+  "author": "nichoth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nichoth/eslint-config-minlint/issues"
+  },
+  "homepage": "https://github.com/nichoth/eslint-config-minlint#readme"
+}
