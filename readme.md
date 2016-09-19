@@ -16,6 +16,6 @@ Minimal linting settings in a shareable eslint config.
 .eslintrc
 ```js
 {
-    "extends": [minlint]
+    "extends": ["minlint"]
 }
 ```
