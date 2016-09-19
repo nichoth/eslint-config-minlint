@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-minlint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal linting",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,9 @@
     "eslint",
     "eslintconfig"
   ],
-  "peerDependencies": { "eslint": ">=3" },
+  "peerDependencies": {
+    "eslint": ">=3"
+  },
   "author": "nichoth",
   "license": "ISC",
   "bugs": {
