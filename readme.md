@@ -11,7 +11,24 @@ Minimal linting settings in a shareable eslint config.
 
 ## install
 
-    $ npm install eslint-config-minlint
+```
+$ npm i -D eslint eslint-config-minlint
+```
+
+## use
+
+```
+$ npm run lint
+```
+
+package.json
+```js
+{
+    "scripts": {
+        "lint": "eslint ."
+    }
+}
+```
 
 .eslintrc
 ```js
@@ -19,3 +36,4 @@ Minimal linting settings in a shareable eslint config.
     "extends": ["minlint"]
 }
 ```
+
